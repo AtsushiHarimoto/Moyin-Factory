@@ -4,10 +4,10 @@
 
 | ADR | Title | Status | Date | Summary |
 |-----|-------|--------|------|---------|
-| ADR-001 | Frontend Technology Stack | Deprecated | 2024-12 | Vue 3 for MVP phase; React 19 migration planned post-MVP |
-| ADR-002 | W1 Moyin Web Deprecation | Accepted | 2025-01 | Novel writing → S3 Story Workshop; Drama → P4 Pipeline |
-| ADR-003 | P2 Audio Gateway Expansion | Proposed | 2025-02 | Extend from TTS-only to multi-modal audio (BGM + SFX) |
-| ADR-004 | S2 Search with Meilisearch | Proposed | 2025-02 | CJK-aware full-text search for materials |
+| [ADR-001](adr-001-frontend-tech-stack.md) | Frontend Technology Stack | Deprecated | 2024-12 | Vue 3 for MVP phase; React 19 migration planned post-MVP |
+| [ADR-002](adr-002-w1-deprecation.md) | W1 (legacy Vue 2 prototype) Deprecation | Accepted | 2025-01 | Novel writing → S3 Story Workshop; Drama → P4 Pipeline |
+| [ADR-003](adr-003-audio-gateway-expansion.md) | P2 Audio Gateway Expansion | Proposed | 2025-02 | Extend from TTS-only to multi-modal audio (BGM + SFX) |
+| [ADR-004](adr-004-meilisearch-for-s2.md) | S2 Search with Meilisearch | Proposed | 2025-02 | CJK-aware full-text search for materials |
 
 ## ADR Format
 
@@ -30,7 +30,7 @@ Each ADR follows this structure:
 
 ### ADR-002: W1 Moyin Web Deprecation
 
-**Context**: The original Moyin Web (W1) combined novel writing and drama production in a single monolithic app.
+**Context**: The original Moyin Web (W1, legacy Vue 2 prototype) combined novel writing and drama production in a single monolithic app.
 
 **Decision**: Decompose W1 into specialized subsystems: novel functions → S3 Story Workshop, drama production → P4 Drama Pipeline.
 

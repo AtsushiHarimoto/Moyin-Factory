@@ -19,7 +19,7 @@ Manages the L0→L5 material refinement pipeline, enforcing Quality Gate validat
 
 - Python FastAPI
 - MongoDB (documents) + MinIO (object storage)
-- Celery workers for async processing
+- Celery workers for async processing (migration to Temporal planned for unified orchestration with S1)
 - Meilisearch for full-text search
 
 ## Key Insight

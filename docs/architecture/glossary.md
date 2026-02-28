@@ -69,5 +69,5 @@
 | **Turn** | A single player action → LLM response → validation cycle |
 | **Judge** | Validation layer that checks LLM output against schema and Canon |
 | **Session** | A persistent game state tracked via append-only commits |
-| **STM/LTM** | Short-Term / Long-Term Memory for character context retention |
+| **STM/MTM/LTM** | Short-Term / Mid-Term / Long-Term Memory for character context retention |
 | **Choice** | Hard-coded branching point in the story graph |
